@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
 import TermsAndConditions from './pages/TermsAndConditions.jsx'
@@ -10,11 +10,14 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-      {/* The app links to /terms-of-service; keep /terms as an alias for the website nav. */}
+      {/* Multiple external links (app store listings, in-app links, website nav) point to different aliases for the same page. */}
       <Route path="/terms" element={<TermsAndConditions />} />
       <Route path="/terms-of-service" element={<TermsAndConditions />} />
+      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
       <Route path="/delete-account" element={<DeleteAccount />} />
       <Route path="/about" element={<AboutApp />} />
+      {/* Any unmatched path falls back to Home instead of rendering blank. */}
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   )
 }
