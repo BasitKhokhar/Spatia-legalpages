@@ -22,7 +22,7 @@ export default function Footer() {
 
           <div className="flex flex-wrap justify-center items-center gap-6 text-sm">
             <Link to="/privacy-policy" className="hover:text-spatia-darkInk transition-colors">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-spatia-darkInk transition-colors">Terms & Conditions</Link>
+            <Link to="/terms-of-service" className="hover:text-spatia-darkInk transition-colors">Terms of Service</Link>
             <Link to="/delete-account" className="hover:text-spatia-darkInk transition-colors">Delete Account</Link>
             <Link to="/about" className="hover:text-spatia-darkInk transition-colors">About App</Link>
           </div>

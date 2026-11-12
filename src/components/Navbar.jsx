@@ -10,7 +10,7 @@ export default function Navbar() {
   const links = [
     { to: '/', label: 'Home' },
     { to: '/privacy-policy', label: 'Privacy Policy' },
-    { to: '/terms', label: 'Terms & Conditions' },
+    { to: '/terms-of-service', label: 'Terms of Service' },
     { to: '/delete-account', label: 'Delete Account' },
     { to: '/about', label: 'About App' },
   ]

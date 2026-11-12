@@ -45,10 +45,10 @@ export default function TermsAndConditions() {
               <ScrollText className="w-7 h-7 text-white" />
             </div>
             <div>
-              <h1 className="font-display text-4xl font-bold text-spatia-ink mb-1">Terms &amp; Conditions</h1>
+              <h1 className="font-display text-4xl font-bold text-spatia-ink mb-1">Terms of Service</h1>
               <p className="text-spatia-ink2 text-sm">
                 <strong className="text-spatia-ink">App:</strong> Spatia: 3D Space Designer &nbsp;·&nbsp;
-                <strong className="text-spatia-ink">Effective Date:</strong> August 30, 2026
+                <strong className="text-spatia-ink">Effective Date:</strong> November 12, 2026
               </p>
             </div>
           </div>
@@ -59,10 +59,28 @@ export default function TermsAndConditions() {
         <div className="bg-spatia-surface rounded-2xl border border-spatia-line shadow-sm p-8 md:p-12">
 
           <Para>
-            Please read these Terms and Conditions carefully before using Spatia: 3D Space Designer.
+            These Terms of Service (also called Terms and Conditions) apply specifically to Spatia: 3D Space Designer.
+            Please read them carefully before using the app.
             By downloading, installing or using Spatia, you agree to be bound by these terms. If you do not agree,
             please do not use the app.
           </Para>
+
+          <Section title="Developer & Trader Information">
+            <Para>
+              Spatia: 3D Space Designer is provided by <strong className="text-spatia-ink">Basit Khokhar</strong>,
+              acting as a trader in connection with the development and provision of this app. Spatia is offered
+              as a commercial service, with optional advertising and paid features.
+            </Para>
+            <Para>
+              For support, complaints, or questions about purchases or these Terms, email{' '}
+              <a href="mailto:basitkhokhar957@gmail.com" className="text-spatia-accent hover:underline">basitkhokhar957@gmail.com</a>.
+            </Para>
+            <Para>
+              Nothing in these Terms limits or removes any mandatory consumer rights under applicable law,
+              including rights available to consumers in the European Economic Area (EEA) and the United Kingdom (UK).
+              If a provision conflicts with those rights, the applicable mandatory law takes precedence.
+            </Para>
+          </Section>
 
           <Section title="1. Acceptance of Terms">
             <Para>
@@ -123,8 +141,8 @@ export default function TermsAndConditions() {
               'Credits are a <strong>virtual in-app currency</strong>. They have no cash value, are not money, and are not redeemable for cash or any equivalent',
               'You receive a starting balance when you create an account, and can earn more free credits by choosing to watch rewarded ads — up to <strong>5 per day</strong>',
               'Credits are spent on exports (PNG, PDF and 3D model files) and on unlocking premium catalog items. Costs are shown before you confirm',
-              'Credits and unlocked items are tied to your account. They are <strong>non-transferable</strong> between accounts, cannot be sold or gifted, and are <strong>not refundable</strong>',
-              'Any unused credits and unlocked items are permanently lost when your account is deleted, whether you delete it or we do',
+              'Credits and unlocked items are tied to your account. They are <strong>non-transferable</strong> between accounts, cannot be sold or gifted, and are <strong>not refundable except where required by applicable law</strong>',
+              'Any unused credits and unlocked items are permanently lost when your account is deleted, whether you delete it or we do, subject to any remedies required by applicable law',
               'We may adjust credit costs, the starting balance, the daily ad limit and the earn rate at any time as the app develops. Changes apply going forward and do not remove credits you already hold',
               'Ads are supplied by Google AdMob and their content is not controlled by us. Rewarded ads are always optional — nothing in the app requires you to watch one',
               'If a rewarded ad fails to load or complete, no credit is granted. This is normal and not a fault of your account',
@@ -135,11 +153,17 @@ export default function TermsAndConditions() {
             <Bullet items={[
               'Spatia is free to download. Optional paid plans remove ads and unlock premium items and downloads',
               'All subscriptions are sold and billed through <strong>Google Play Billing</strong>. We never receive or store your card or bank details',
-              'Subscriptions <strong>renew automatically</strong> at the end of each period until you cancel. Cancel any time in Google Play Store → Subscriptions — cancelling stops the next renewal and does not refund the current period',
-              'Refunds are governed by Google Play&apos;s refund policy. We cannot issue refunds for purchases made through Google Play directly',
+              'Subscriptions <strong>renew automatically</strong> at the end of each period until you cancel. Cancel any time in Google Play Store → Subscriptions — cancelling stops the next renewal and does not automatically refund the current period. Any refund or withdrawal rights under applicable law still apply',
+              'Refund requests are handled under Google Play&apos;s refund process and applicable law. You can request a refund through Google Play or contact us for help with a purchase. These Terms do not restrict any statutory rights to a refund or other remedy',
               'Prices, plan names and plan benefits may change. The current plans are always those shown on the Credits &amp; Plans screen in the app',
               'Premium benefits are available only while your plan is active. When it lapses, the app returns to the free tier — your designs are not deleted',
             ]} />
+            <Para>
+              See{' '}
+              <a href="https://support.google.com/googleplay/answer/2479637" className="text-spatia-accent hover:underline">Google Play&apos;s refund policy and request instructions</a>.
+              Deleting your Spatia account does not cancel a Google Play subscription; manage or cancel it separately
+              in Google Play.
+            </Para>
           </Section>
 
           <Section title="7. AI-Generated Designs">

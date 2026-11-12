@@ -15,10 +15,10 @@ const cards = [
     badgeColor: 'bg-spatia-accentSoft text-spatia-accentPress',
   },
   {
-    to: '/terms',
+    to: '/terms-of-service',
     icon: <ScrollText className="w-6 h-6 text-spatia-accentDeep" />,
     iconBg: 'bg-spatia-creditSoft',
-    title: 'Terms & Conditions',
+    title: 'Terms of Service',
     description: 'The rules covering your licence to use Spatia, credits, rewarded ads, subscriptions and AI-generated designs.',
     badge: 'User Agreement',
     badgeColor: 'bg-spatia-creditSoft text-spatia-accentDeep',
